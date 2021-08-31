@@ -1,0 +1,13 @@
+[Unit]
+Description=uWSGI instance to serve dlds portal
+After=network.target
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/var/www/html/app
+Environment="PATH=/var/www/html/venv/bin"
+ExecStart=/var/www/html/venv/bin/uwsgi --ini /var/www/html/dlds.ini
+
+[Install]
+WantedBy=multi-user.target
