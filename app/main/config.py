@@ -25,8 +25,8 @@ class Config:
     WWW_LOG_NAME = './access.log'    
     SAMBA_IP = 'localhost'
     SAMBA_BACKEND_PYTHON = 'localhost:5000/api/samba'
-    SAMBA_USER="murad"
-    SAMBA_USER_PASS="Selise1234"
+    SAMBA_USER="sangit"
+    SAMBA_USER_PASS="Sangit1234"
 
 
 class DevelopmentConfig(Config):
