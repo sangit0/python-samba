@@ -8,5 +8,9 @@
           For running the app (5000)
           
                 # python3 manage.py runserver
+
+
+
+###You will have create own samba server to use this.
                 
         
